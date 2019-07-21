@@ -9,8 +9,5 @@ cmd4 <- paste0("git config credential.helper 'cache --timeout=18000'")
 
 system(cmd1)
 system(cmd2)
-
-chk <- system(cmd3)
-chk
-
-systemd(cmd4)
+system(cmd3)
+system(cmd4)
